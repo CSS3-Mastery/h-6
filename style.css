@@ -43,6 +43,9 @@ body {
   display: flex;
   flex: 1;
 }
+.img-right a {
+  text-decoration: none;
+}
 .images {
   flex: 1;
   margin: 20px;
@@ -59,12 +62,18 @@ body {
   margin-left: 50px;
   margin-top: 30px;
 }
+#img-1:hover {
+  margin-top: 25px;
+}
 #img-2 {
   background-image: url(./img/pic-2.png);
   width: 230px;
   height: 250px;
   border-radius: 10px;
   margin-top: 30px;
+}
+#img-2:hover {
+  margin-top: 25px;
 }
 #img-3 {
   background-image: url(./img/pic-3.png);
@@ -74,12 +83,18 @@ body {
   margin-left: 50px;
   margin-top: 30px;
 }
+#img-3:hover {
+  margin-top: 25px;
+}
 #img-4 {
   background-image: url(./img/pic-4.png);
   width: 230px;
   height: 250px;
   border-radius: 10px;
   margin-top: 30px;
+}
+#img-4:hover {
+  margin-top: 25px;
 }
 .left p {
   font-size: 20px;
@@ -101,11 +116,20 @@ body {
   .main {
     display: block;
   }
-  .images {
-    margin: 20px;
-    border-radius: 20px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: white;
+  #img-1 {
+    margin-left: 5%;
+    width: auto;
+  }
+  #img-2 {
+    margin-left: 2%;
+    width: auto;
+  }
+  #img-3 {
+    margin-left: 5%;
+    width: auto;
+  }
+  #img-4 {
+    margin-left: 2%;
+    width: auto;
   }
 }
