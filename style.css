@@ -100,10 +100,12 @@ body {
   font-size: 20px;
   font-family: serif;
 }
+
 .images h4,
 .images p {
   margin-left: 10px;
   font-family: serif;
+  padding-top: 20px;
 }
 @media screen and (min-width: 992px) {
   .menu-img {
@@ -116,12 +118,15 @@ body {
   .main {
     display: block;
   }
+  .img-right {
+    display: block;
+  }
   #img-1 {
     margin-left: 5%;
     width: auto;
   }
   #img-2 {
-    margin-left: 2%;
+    margin-left: 5%;
     width: auto;
   }
   #img-3 {
@@ -129,7 +134,7 @@ body {
     width: auto;
   }
   #img-4 {
-    margin-left: 2%;
+    margin-left: 5%;
     width: auto;
   }
 }
