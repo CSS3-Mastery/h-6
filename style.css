@@ -10,6 +10,12 @@ body {
   font-family: serif;
   margin-left: 20px;
 }
+.nav-link:hover {
+  color: #e4dfdf;
+}
+.nav-link:any-link {
+  color: #f8f5f5;
+}
 .navbar-collapse {
   margin-left: 50%;
 }
