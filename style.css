@@ -1,0 +1,111 @@
+body {
+  background-image: url(./img/sahara-desert.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.nav-link {
+  font-size: 22px;
+  font-weight: 500;
+  color: #fff;
+  font-family: serif;
+  margin-left: 20px;
+}
+.navbar-collapse {
+  margin-left: 50%;
+}
+.navbar-toggler span {
+  background-image: url(./img/menu.png);
+}
+.explore-btn {
+  border-radius: 30px;
+  width: 200px;
+  height: 50px;
+  font-weight: bold;
+  font-family: serif;
+  border: 1px solid #ffffff;
+}
+.main {
+  display: flex;
+}
+.left {
+  flex: 1;
+  padding: 10px;
+  margin-left: 50px;
+  color: #ffffff;
+  margin-top: 155px;
+}
+.left h1 {
+  font-size: 100px;
+  font-family: serif;
+  font-weight: bold;
+}
+.img-right {
+  display: flex;
+  flex: 1;
+}
+.images {
+  flex: 1;
+  margin: 20px;
+  border-radius: 20px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+}
+#img-1 {
+  background-image: url(./img/S11.jpg);
+  width: 230px;
+  height: 250px;
+  border-radius: 10px;
+  margin-left: 50px;
+  margin-top: 30px;
+}
+#img-2 {
+  background-image: url(./img/pic-2.png);
+  width: 230px;
+  height: 250px;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+#img-3 {
+  background-image: url(./img/pic-3.png);
+  width: 230px;
+  height: 250px;
+  border-radius: 10px;
+  margin-left: 50px;
+  margin-top: 30px;
+}
+#img-4 {
+  background-image: url(./img/pic-4.png);
+  width: 230px;
+  height: 250px;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+.left p {
+  font-size: 20px;
+  font-family: serif;
+}
+.images h4,
+.images p {
+  margin-left: 10px;
+  font-family: serif;
+}
+@media screen and (min-width: 992px) {
+  .menu-img {
+    background-image: url(./img/menu.png);
+    width: 47px;
+    height: 47px;
+  }
+}
+@media screen and (max-width: 892px) {
+  .main {
+    display: block;
+  }
+  .images {
+    margin: 20px;
+    border-radius: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+  }
+}
